@@ -1,0 +1,117 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --stone-100: hsl(30, 54%, 90%);
+  --stone-150: hsl(30, 18%, 87%);
+  --stone-600: hsl(30, 10%, 34%);
+  --stone-900: hsl(24, 5%, 18%);
+  --brown-800: hsl(14, 45%, 36%);
+  --rose-800: hsl(332, 51%, 32%);
+  --rose-50: hsl(330, 100%, 98%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.young-serif-regular, h1 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2, h3, h4 {
+  color: var(--brown-800);
+}
+
+.outfit-400, p, li, table {
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--stone-600);
+}
+
+b {
+  color: var(--stone-900);
+}
+
+.outfit-600 {
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.outfit-700 {
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: var(--stone-100);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul, ol {
+  margin-left: -20px;
+}
+
+li {
+  padding-left: 16px;
+}
+
+article {
+  background-color: var(--white);
+  width: 720px;
+  margin: 64px 0;
+  border-radius: 16px;
+  padding: 32px;
+}
+
+article > img {
+  max-width: 100%;
+  width: 100%;
+  border-radius: 8px;
+}
+
+article > section.preperation > div {
+  font-size: 18px;
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  color: var(--rose-800);
+}
+
+table, thead, tbody, tr {
+  width: 100%;
+}
+
+td {
+  width: 50%;
+  padding: 16px;
+  border-bottom: 2px solid var(--stone-150);
+}
+
+td:nth-child(2) {
+  color: var(--brown-800);
+  font-weight: bold;
+}
+
+.seperator {
+  border-top: 2px solid var(--stone-150);
+}
+
+section {
+  background-color: var(--rose-50);
+  padding: 16px;
+  border-radius: 8px;
+}
